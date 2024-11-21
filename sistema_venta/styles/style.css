@@ -1,0 +1,255 @@
+body{
+    font-family: 'Arial Narrow';
+}
+.cont-beginning{
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #D6DBDF;
+    background-color: #EBEDEF;
+    box-shadow: 5px 5px 5px #000;
+}
+.cont-headline{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.cont-logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.cont-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.cont-title h1{
+    font-size: 50px;
+    text-shadow: 8px 8px 4px rgb(193, 182, 182);
+    text-align: center;
+}
+.cont-title button{
+    width: 50px;
+    height: 20px;
+    border: none;
+    background: none;
+    margin-left: 500px;
+    font-size: large;
+}
+.cont-title a{
+    color: #5D6D7E;
+}
+.cont-title a:hover{
+    color: #000;
+}
+.cont-form{
+    width: 260px;
+    height: 320px;
+    border-radius: 20px;
+    border: 1px solid #D6DBDF;
+    box-shadow: 5px 5px 5px #000;
+    margin: 70px auto;
+    text-align: center;
+    background-color: #AEB6BF ;
+}
+.cont-head-form{
+    text-shadow: 1px 1px 1px #fff;
+}
+.form-1{
+    display: block;
+    text-align: center;
+}
+.form-1 label{
+    width: 100%;
+    font-size: larger;
+}
+.form-1 input{
+    width: 90%;
+    height: 21px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.form-1 button{
+    width: 50%;
+    height: 30px;
+    font-size: larger;
+    margin-top: 10px;
+}
+.color-1{
+    color: #3498DB;
+    border-radius: 10px;
+    border: 1px solid #3498DB;
+    box-shadow: 1px 1px 1px #000;
+}
+.color-1:hover{
+    color: #fff;
+    background-color: #3498DB;
+    cursor: pointer;
+}
+.color-2{
+    color: #E74C3C;
+    border-radius: 10px;
+    border: 1px solid #E74C3C;
+    box-shadow: 1px 1px 1px #000;
+}
+.color-2:hover{
+    color: #fff;
+    background-color: #E74C3C;
+    cursor: pointer;
+}
+.color-3{
+    color: #5D6D7E;
+    border-radius: 10px;
+    border: 1px solid #5D6D7E;
+    box-shadow: 1px 1px 1px #000;
+}
+.color-3:hover{
+    color: #fff;
+    background-color: #5D6D7E;
+    cursor: pointer;
+}
+.cont-nav{
+    width: 60%;
+    height: 50%;
+    margin: 100px auto;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #AEB6BF;
+    box-shadow: 1px 1px 1px #000;
+}
+.cont-1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-1 button{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid #AEB6BF;
+    box-shadow: 1px 1px 1px #000;
+}
+.cont-2 button{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 1px solid #AEB6BF;
+    box-shadow: 1px 1px 1px #000;
+}
+.cont-work{
+    width: 100%;
+    height: 80%;
+    display: flex;
+   
+}
+.cont-form-1{
+    width: 25%;
+    height: 95%;
+    text-align: center;
+    margin-left: 20px;
+    border: 1px inset #D6DBDF;
+    box-shadow: inset 1px 1px 1px #AEB6BF;
+}
+.cont-form-1 input{
+    width: 80%;
+    height: 22px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid #5D6D7E;
+}
+.cont-form-1 button{
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+}
+.cont-tablas{
+    width: 70%;
+    height: 95%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px inset #D6DBDF;
+    overflow-y: scroll;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px #AEB6BF;
+}
+.table-1{
+    width: 50%;
+    height: 20px;
+    margin-top: 5px;
+    border-collapse: collapse;
+    border: 1px solid #3498DB;
+}
+.table-1 th{
+    width: 50%;
+    color: #fff;
+    font-size: larger;
+    background-color: #3498DB;
+}
+.table-1 td{
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #3498DB;
+}
+.table-1 tr:hover{
+    background-color: #D6DBDF;
+}
+
+/*form-clientes*/
+
+.form-clientes .input-1{
+    width: 80%;
+    height: 22px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: 1px solid #5D6D7E;
+}
+.table-2{
+    width: 99%;
+    height: 20px;
+    margin-top: 5px;
+    border-collapse: collapse;
+}
+.table-2 th{
+    width: auto;
+    color: #fff;
+    font-size: larger;
+    background-color: #3498DB;
+}
+.table-2 td{
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #3498DB;
+}
+.table-2 tr:hover{
+    background-color: #D6DBDF;
+}
+
+/*form-usuarios*/
+
+.form-usuarios .input-2{
+    width: 80%;
+    height: 22px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #5D6D7E;
+}
+
+/*facturación*/
+
